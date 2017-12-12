@@ -4,8 +4,8 @@ These template matching tests were created on Mac HighSierra with Python 3.6, Py
 
 Find Item Outputs
 
-![bar.png](http://bar.png)
-![cake.png](http://cake.png)
+![bar.png](/bar.png)
+![cake.png](/cake.png)
 
 
 The matchTemplate function in OpenCV will only return excact pixel matches, which makes it impractical for object detection. It is, however, very good for finding images that will always be the same no matter where they are. For example, 8-bit cake on my desktop wallpaper.
