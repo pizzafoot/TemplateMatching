@@ -1,3 +1,7 @@
+# MultiTemplateSearch 11/12/17
+
+# Will return the locations of multiple template matches in an image
+
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
