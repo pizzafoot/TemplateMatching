@@ -2,6 +2,12 @@
 
 These template matching tests were created on Mac HighSierra with Python 3.6, Pycharm, Opencv, and a lot of snacks.
 
+Find Item Outputs
+
+![alt text](http://bar.png)
+![alt text](http://cake.png)
+
+
 The matchTemplate function in OpenCV will only return excact pixel matches, which makes it impractical for object detection. It is, however, very good for finding images that will always be the same no matter where they are. For example, 8-bit cake on my desktop wallpaper.
 
 ItemFind will find any given template with no hastle, and if I'm correct, will only return the most accurate result. If no possible result is found, it's going to find the next best thing.
