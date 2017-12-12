@@ -36,7 +36,7 @@ if function == '1': # READING TEST IMAGE [Option 1]
 
     center = (top_left[0]/2 + w, top_left[1]/2 + h) # Get center location
     print(center) # Print location
-    cv2.circle(img, (int(top_left[0] + w/2)), (int(top_left[1] + h/2)), 5, (0, 0, 255), 2) # Draw circle
+    #cv2.circle(img, (int(top_left[0] + w/2)), (int(top_left[1] + h/2)), 5, (0, 0, 255), 2) # Draw circle (I got an error on this line, so I just commented it out. It just draws dots on the matches.)
 
     img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB) # Convert image color
 
